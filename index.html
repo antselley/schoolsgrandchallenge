@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>2017 Schools Grand Bobby Challenge! | Education HTML5 Template</title>
+    <title>Ambitious Curiosity | Schools Grand Challenge</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,8 @@
             <li><a href="#organisations">Food Security</a></li>
             <li><a href="#faculity-member">Our Team</a></li>
             <li><a href="#courses">Schools</a></li>
-            <li class="btn-trial"><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="btn-trial"><a href="#footer">Newsletter</a></li>
         </ul>
         </div>
       </div>
@@ -105,7 +106,7 @@
               </div>
               <div class="intro-para text-center quote">
                 <p class="big-text">Experiential Learning For A Fast Changing World</p>
-                <p class="small-text">Tools + Incentives for tackling real problems and starting real projects!</p>
+                <p class="small-text">Tools + Incentives for tackling real problems and driving real projects!</p>
                 <a href="#contact" class="btn">GET INVOLVED!</a>
               </div>
               <a href="#feature" class="mouse-hover"><div class="mouse"></div></a>
@@ -495,48 +496,68 @@ With a background in teaching, educational leadership and curriculum development
 
     <!--Contact-->
     <section id ="contact" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="header-section text-center">
-            <h2>Contact Us</h2>
-            <p>Be ye student, teacher, parent or friend;<br>feel free to shoot questions and let us know if you'd like to join in on the fun!</p>
-            <hr class="bottom-line">
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 left">
-            <!-- Name -->
-            <input name="name" id="name" class="form light-form oswald light" placeholder="NAME" type="text">
+      <form action="contact_form.php">
+        <div class="container">
+          <div class="row">
+            <div class="header-section text-center">
+              <h2>Contact Us</h2>
+              <p>Be ye student, teacher, parent or friend;<br>feel free to shoot questions and let us know if you'd like to join in on the fun!</p>
+              <hr class="bottom-line">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 left">
+              <!-- Name -->
+              <input name="name" id="name" class="form light-form oswald light" placeholder="NAME" type="text">
 
-            <!-- Email -->
-            <input name="email" id="email" class="form light-form oswald light" placeholder="E-MAIL" type="text">
+              <!-- Email -->
+              <input name="email" id="email" class="form light-form oswald light" placeholder="E-MAIL" type="text">
 
-            <!-- Subject -->
-            <input name="subject" id="subject" class="form light-form oswald light" placeholder="SUBJECT" type="text">
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 right">
+              <!-- Subject -->
+              <input name="subject" id="subject" class="form light-form oswald light" placeholder="SUBJECT" type="text">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 right">
 
-            <!-- Message -->
-            <textarea name="message" id="message" class="form light-form textarea oswald light" placeholder="Hi Ant, ..."></textarea>
+              <!-- Message -->
+              <textarea name="message" id="message" class="form light-form textarea oswald light" placeholder="Hi Ant, ..."></textarea>
+            </div>
+            <div class="col-xs-12">
+              <!-- Button -->
+              <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+            </div>
           </div>
-          <div class="col-xs-12">
-            <!-- Button -->
-            <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
-          </div>
-        </div>
-      </div>
+        </div
+      </form>
     </section>
     <!--/ Contact-->
     <!--Footer-->
     <footer id="footer" class="footer">
       <div class="container text-center">
 
-      <h3>Let's get social:</h3>
+      <h3>Sign up for our newsletter: </h3>
 
-
-      <!-- End newsletter-form -->
-      <ul class="social-links">
-        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="https://www.facebook.com/schoolsgrandchallenge/" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
-      </ul>
+      <form action="newsletter.php" class="mc-trial row">
+        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
+          <div class=" controls">
+            <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
+          </div>
+        </div><!-- End email input -->
+        <div class="form-group col-md-3 col-sm-4">
+          <div class=" controls">
+            <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
+          </div>
+        </div><!-- End email input -->
+        <div class="col-md-2 col-sm-4">
+          <p>
+            <button name="submit" type="submit" class="btn btn-block btn-submit">
+            Submit <i class="fa fa-arrow-right"></i></button>
+          </p>
+        </div>
+      </form>  <!-- End newsletter-form -->
+        <div id="social-media-links">
+          <ul class="social-links">
+            <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+            <li><a href="https://www.facebook.com/schoolsgrandchallenge/" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
+          </ul>
+        </div>
       <p>©2016 Mentor Theme by <a href="http://themeshouter.com/" target="_blank">Themeshouter</a></p>
       </div>
     </footer>

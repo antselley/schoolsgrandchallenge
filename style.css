@@ -665,6 +665,10 @@ Footer
 .footer .form-control:focus{
     box-shadow: none;
 }
+
+#social-media-links {
+	text-align: center;
+}
 /***********************************
 ************************************
 Responsive media queries
@@ -746,6 +750,7 @@ Responsive media queries
     }
     .footer .social-links li {
     margin: 0 5px 25px;
+		text-align: center;
     }
     .cta-2-form-submit-btn {
     font-size: 10px;
