@@ -426,9 +426,9 @@ Mentor Team
     padding: 20px 20px;
 }
 .pm-staff-profile-name {
-    font-size: 24px;
+    font-size: 19px;
     text-transform: capitalize;
-    color: #2b5d83;
+    color: #5fcf80;
 }
 .pm-staff-profile-title {
     text-transform: capitalize;
@@ -437,7 +437,6 @@ Mentor Team
     padding: 12px 0px;
 }
 .pm-staff-profile-bio {
-  text-transform: capitalize;
   color: #4b4b4b;
   font-weight: 100;
 }
@@ -514,6 +513,10 @@ Price Table
 /***********************************
 Contact Us
 ************************************/
+#contact {
+	background-color: rgb(247, 247, 247);
+	padding-bottom: 30px;
+}
 .contact form .form {
     width: 100%;
     height: auto;
@@ -545,7 +548,7 @@ Contact Us
 Footer
 ************************************/
 .footer {
-    padding: 60px 0 20px;
+    padding: -15px 0 20px;
     background: #000;
 }
 .footer h3{
@@ -566,7 +569,7 @@ Footer
 .footer .social-links li a {
     color: #fff;
     font-size: 32px;
-    line-height: 50px;
+    line-height: 10px;
     border-radius: 50%;
     text-align: center;
     -webkit-transition: all .3s ease-out;
@@ -584,8 +587,8 @@ Footer
 .footer .social-links {
     list-style: none;
     padding: 0;
-    margin: 30px 0 40px;
-    padding: 40px 0 0;
+    margin: 30px 0 30px;
+    padding: 10px 0 0;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .btn-submit:hover, .btn-submit:focus{
@@ -750,7 +753,6 @@ Responsive media queries
     }
     .footer .social-links li {
     margin: 0 5px 25px;
-		text-align: center;
     }
     .cta-2-form-submit-btn {
     font-size: 10px;
